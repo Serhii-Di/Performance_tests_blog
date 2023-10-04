@@ -1,0 +1,866 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1676379212071,55,TC_start_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,31020,361,2,2,null,0,1967,21
+1676379212985,55,Start_Open Home page,200,OK,Thread Group 1-1,text,true,,31020,361,1,1,http://192.168.56.101/blog/,47,0,21
+1676379214095,17,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,26492,430,2,2,null,0,287,0
+1676379214361,17,Search by Name,200,OK,Thread Group 1-1,text,true,,26492,430,2,2,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,17,0,0
+1676379214065,178,TC_start_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,31020,361,2,2,null,0,1064,2
+1676379215115,178,Start_Open Home page,200,OK,Thread Group 1-2,text,true,,31020,361,2,2,http://192.168.56.101/blog/,178,0,2
+1676379214471,223,TC_Open first post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,665232,379,2,2,null,0,661,0
+1676379215088,223,Open first post,200,OK,Thread Group 1-1,text,true,,665232,379,2,2,http://192.168.56.101/blog/post/1673816863353,192,0,0
+1676379215310,11,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,31388,379,2,2,null,0,146,0
+1676379215422,11,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,31388,379,2,2,http://192.168.56.101/blog/2022/10/01/default,10,0,0
+1676379215624,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,31,0
+1676379215656,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,32,0
+1676379215710,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,2,2,null,0,0,0
+1676379215710,21,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,16519,379,3,3,null,0,417,0
+1676379216072,21,Open Random Date,200,OK,Thread Group 1-2,text,true,,16519,379,3,3,http://192.168.56.101/blog/2022/09/30/default,21,0,0
+1676379216162,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,3,3,null,0,2,0
+1676379216172,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,3,3,null,0,18,0
+1676379216191,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,3,3,null,0,0,0
+1676379215742,21,TC_start_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,31020,361,3,3,null,0,516,2
+1676379216256,21,Start_Open Home page,200,OK,Thread Group 1-3,text,true,,31020,361,3,3,http://192.168.56.101/blog/,21,0,2
+1676379215371,88,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2571,2226,3,3,null,0,1058,0
+1676379216398,88,leave a comment,200,OK,Thread Group 1-1,text,true,,2571,2226,3,3,http://192.168.56.101/blog/post/1673816863353,88,0,0
+1676379216517,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,3,3,null,0,0,0
+1676379216192,13,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,26492,430,3,3,null,0,764,0
+1676379216954,13,Search by Name,200,OK,Thread Group 1-2,text,true,,26492,430,3,3,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,13,0,0
+1676379216970,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,3,3,null,0,0,0
+1676379216971,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,3,3,null,0,0,0
+1676379216517,7,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,20625,448,3,3,null,0,553,0
+1676379217052,7,Open Contacts,200,OK,Thread Group 1-1,text,true,,20625,448,3,3,http://192.168.56.101/blog/contact,7,0,0
+1676379217078,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,3,3,null,0,0,0
+1676379216280,12,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,20548,368,3,3,null,0,1005,0
+1676379217284,12,Open Contacts,200,OK,Thread Group 1-3,text,true,,20548,368,3,3,http://192.168.56.101/blog/contact,12,0,0
+1676379217298,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,3,3,null,0,0,0
+1676379217078,16,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,20062,492,3,3,null,0,602,0
+1676379217644,16,Open Large Calendar,200,OK,Thread Group 1-1,text,true,,20062,492,3,3,http://192.168.56.101/blog/calendar/default.aspx,16,0,0
+1676379217696,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,3,3,null,0,1,0
+1676379217697,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,3,3,null,0,0,0
+1676379216971,8,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,16517,379,3,3,null,0,756,0
+1676379217726,8,Open Random Date,200,OK,Thread Group 1-2,text,true,,16517,379,3,3,http://192.168.56.101/blog/2022/09/05/default,7,0,0
+1676379217737,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,4,4,null,0,0,0
+1676379217738,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,4,4,null,0,0,0
+1676379217739,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,4,4,null,0,0,0
+1676379217298,9,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,30442,379,4,4,null,0,567,0
+1676379217863,9,Open Predefined Date,200,OK,Thread Group 1-3,text,true,,30442,379,4,4,http://192.168.56.101/blog/2022/10/02/default,9,0,0
+1676379217879,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,4,4,null,0,1,0
+1676379217738,15,TC_start_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,31020,361,4,4,null,0,278,1
+1676379218015,15,Start_Open Home page,200,OK,Thread Group 1-4,text,true,,31020,361,4,4,http://192.168.56.101/blog/,15,0,1
+1676379217739,9,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,20548,368,4,4,null,0,354,0
+1676379218093,9,Open Contacts,200,OK,Thread Group 1-2,text,true,,20548,368,4,4,http://192.168.56.101/blog/contact,8,0,0
+1676379218103,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,4,4,null,0,0,0
+1676379217880,17,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,99048,379,4,4,null,0,585,0
+1676379218437,17,Open Random post,200,OK,Thread Group 1-3,text,true,,99048,379,4,4,http://192.168.56.101/blog/post/1673816899027,17,0,0
+1676379218482,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,4,4,null,0,11,0
+1676379218494,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,4,4,null,0,0,0
+1676379217698,10,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,31020,441,4,4,null,0,884,0
+1676379218581,10,Open Home page,200,OK,Thread Group 1-1,text,true,,31020,441,4,4,http://192.168.56.101/blog/,10,0,0
+1676379218103,10,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,20548,368,4,4,null,0,494,0
+1676379218596,10,Open Contacts,200,OK,Thread Group 1-2,text,true,,20548,368,4,4,http://192.168.56.101/blog/contact,10,0,0
+1676379218608,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,4,4,null,0,0,0
+1676379218031,9,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,20548,368,4,4,null,0,630,0
+1676379218660,9,Open Contacts,200,OK,Thread Group 1-4,text,true,,20548,368,4,4,http://192.168.56.101/blog/contact,9,0,0
+1676379218670,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1676379218494,15,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,30114,379,4,4,null,0,657,0
+1676379219149,15,Open Predefined Date,200,OK,Thread Group 1-3,text,true,,30114,379,4,4,http://192.168.56.101/blog/2022/10/03/default,15,0,0
+1676379219167,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,4,4,null,0,1,0
+1676379218670,14,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,31020,361,4,4,null,0,577,0
+1676379219245,14,Open Home page,200,OK,Thread Group 1-4,text,true,,31020,361,4,4,http://192.168.56.101/blog/,14,0,0
+1676379219260,0,TC_NOT Open Random page,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,11,0
+1676379219278,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1676379219279,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1676379218608,13,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,26492,430,4,4,null,0,663,0
+1676379219269,13,Search by Name,200,OK,Thread Group 1-2,text,true,,26492,430,4,4,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,13,0,0
+1676379218608,23,TC_Open Random page >1,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,30251,448,4,4,null,0,862,0
+1676379219456,23,Open Random page >1,200,OK,Thread Group 1-1,text,true,,30251,448,4,4,http://192.168.56.101/blog/?page=2,23,0,0
+1676379219284,82,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,276285,379,4,4,null,0,186,0
+1676379219464,82,Open Random post,200,OK,Thread Group 1-2,text,true,,276285,379,4,4,http://192.168.56.101/blog/post/1673816929588,61,0,0
+1676379219493,26,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,89720,459,4,4,null,0,70,0
+1676379219554,26,Open Random post,200,OK,Thread Group 1-1,text,true,,89720,459,4,4,http://192.168.56.101/blog/post/1673816877536,25,0,0
+1676379219279,49,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,30167,379,4,4,null,0,469,0
+1676379219746,49,Open Predefined Date,200,OK,Thread Group 1-4,text,true,,30167,379,4,4,http://192.168.56.101/blog/2022/10/04/default,49,0,0
+1676379219801,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1676379219802,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1676379219803,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,4,4,null,0,0,0
+1676379219168,19,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,96295,379,5,5,null,0,921,0
+1676379220087,19,Open Random post,200,OK,Thread Group 1-3,text,true,,96295,379,5,5,http://192.168.56.101/blog/post/1673816912424,19,0,0
+1676379220108,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,5,5,null,0,1,0
+1676379220109,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,5,5,null,0,0,0
+1676379219803,8,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,20548,368,5,5,null,0,318,0
+1676379220120,8,Open Contacts,200,OK,Thread Group 1-4,text,true,,20548,368,5,5,http://192.168.56.101/blog/contact,8,0,0
+1676379220129,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,5,5,null,0,1,0
+1676379220130,8,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,16519,379,5,5,null,0,122,0
+1676379220251,8,Open Random Date,200,OK,Thread Group 1-4,text,true,,16519,379,5,5,http://192.168.56.101/blog/2022/09/12/default,8,0,0
+1676379220262,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,5,5,null,0,0,0
+1676379220262,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,5,5,null,0,1,0
+1676379220263,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,5,5,null,0,0,0
+1676379219860,13,TC_start_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,31020,361,5,5,null,0,430,1
+1676379220289,13,Start_Open Home page,200,OK,Thread Group 1-5,text,true,,31020,361,5,5,http://192.168.56.101/blog/,13,0,1
+1676379219552,38,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,2571,2252,5,5,null,0,1060,0
+1676379220612,38,leave a comment,200,OK,Thread Group 1-2,text,true,,2571,2252,5,5,http://192.168.56.101/blog/post/1673816929588,37,0,0
+1676379220651,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,5,5,null,0,0,0
+1676379220303,28,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,16519,379,5,5,null,0,465,0
+1676379220767,28,Open Random Date,200,OK,Thread Group 1-5,text,true,,16519,379,5,5,http://192.168.56.101/blog/2022/09/30/default,28,0,0
+1676379220798,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,0,0
+1676379220799,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,0,0
+1676379220799,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,5,5,null,0,0,0
+1676379220800,13,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,26492,430,5,5,null,0,221,0
+1676379221020,13,Search by Name,200,OK,Thread Group 1-5,text,true,,26492,430,5,5,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,13,0,0
+1676379219589,18,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2571,2304,5,5,null,0,1538,0
+1676379221127,18,leave a comment,200,OK,Thread Group 1-1,text,true,,2571,2304,5,5,http://192.168.56.101/blog/post/1673816877536,17,0,0
+1676379221148,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,5,5,null,0,0,0
+1676379220109,9,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,31020,361,5,5,null,0,1091,0
+1676379221199,9,Open Home page,200,OK,Thread Group 1-3,text,true,,31020,361,5,5,http://192.168.56.101/blog/,9,0,0
+1676379221210,0,TC_NOT Open Random page,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,5,5,null,0,0,0
+1676379221210,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,5,5,null,0,1,0
+1676379221211,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,5,5,null,0,0,0
+1676379220651,7,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,20625,448,5,5,null,0,568,0
+1676379221218,7,Open Contacts,200,OK,Thread Group 1-2,text,true,,20625,448,5,5,http://192.168.56.101/blog/contact,7,0,0
+1676379221226,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,5,5,null,0,0,0
+1676379221035,64,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,312178,379,5,5,null,0,285,0
+1676379221308,64,Open Random post,200,OK,Thread Group 1-5,text,true,,312178,379,5,5,http://192.168.56.101/blog/post/1673816844926,62,0,0
+1676379220263,7,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,20062,412,5,5,null,0,1152,0
+1676379221414,7,Open Large Calendar,200,OK,Thread Group 1-4,text,true,,20062,412,5,5,http://192.168.56.101/blog/calendar/default.aspx,7,0,0
+1676379221422,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,5,5,null,0,0,0
+1676379221423,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,5,5,null,0,0,0
+1676379221227,8,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,32536,459,5,5,null,0,281,0
+1676379221507,8,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,32536,459,5,5,http://192.168.56.101/blog/2022/10/05/default,8,0,0
+1676379221518,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,5,5,null,0,1,0
+1676379221519,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,5,5,null,0,1,0
+1676379221520,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,5,5,null,0,0,0
+1676379221211,22,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,31020,361,5,5,null,0,438,0
+1676379221649,22,Open Home page,200,OK,Thread Group 1-3,text,true,,31020,361,5,5,http://192.168.56.101/blog/,21,0,0
+1676379221672,0,TC_NOT Open Random page,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,5,5,null,0,0,0
+1676379221672,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,5,5,null,0,1,0
+1676379221673,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,5,5,null,0,0,0
+1676379221148,29,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,16519,459,5,5,null,0,503,0
+1676379221650,29,Open Random Date,200,OK,Thread Group 1-1,text,true,,16519,459,5,5,http://192.168.56.101/blog/2022/09/11/default,29,0,0
+1676379221682,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,5,5,null,0,0,0
+1676379221683,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,5,5,null,0,0,0
+1676379221683,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,5,5,null,0,0,0
+1676379221423,10,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,16519,379,5,5,null,0,444,0
+1676379221866,10,Open Random Date,200,OK,Thread Group 1-4,text,true,,16519,379,5,5,http://192.168.56.101/blog/2022/09/17/default,10,0,0
+1676379221879,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,5,5,null,0,0,0
+1676379221880,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,5,5,null,0,0,0
+1676379221880,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,5,5,null,0,0,0
+1676379221683,14,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,31020,441,5,5,null,0,360,0
+1676379222042,14,Open Home page,200,OK,Thread Group 1-1,text,true,,31020,441,5,5,http://192.168.56.101/blog/,14,0,0
+1676379222058,0,TC_NOT Open Random page,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,5,5,null,0,0,0
+1676379221520,18,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,20625,448,6,6,null,0,809,0
+1676379222328,18,Open Contacts,200,OK,Thread Group 1-2,text,true,,20625,448,6,6,http://192.168.56.101/blog/contact,18,0,0
+1676379222348,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,6,6,null,0,1,0
+1676379221384,63,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,2571,2236,6,6,null,0,967,0
+1676379222350,63,leave a comment,200,OK,Thread Group 1-5,text,true,,2571,2236,6,6,http://192.168.56.101/blog/post/1673816844926,63,0,0
+1676379222414,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,6,6,null,0,0,0
+1676379221673,6,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,20548,368,6,6,null,0,863,0
+1676379222535,6,Open Contacts,200,OK,Thread Group 1-3,text,true,,20548,368,6,6,http://192.168.56.101/blog/contact,6,0,0
+1676379222543,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,6,6,null,0,0,0
+1676379221881,15,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,20062,412,6,6,null,0,655,0
+1676379222535,15,Open Large Calendar,200,OK,Thread Group 1-4,text,true,,20062,412,6,6,http://192.168.56.101/blog/calendar/default.aspx,15,0,0
+1676379222552,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,6,6,null,0,0,0
+1676379222552,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,6,6,null,0,0,0
+1676379222349,7,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,20625,448,6,6,null,0,247,0
+1676379222595,7,Open Contacts,200,OK,Thread Group 1-2,text,true,,20625,448,6,6,http://192.168.56.101/blog/contact,7,0,0
+1676379222603,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,6,6,null,0,0,0
+1676379222059,124,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,250980,459,6,6,null,0,579,0
+1676379222632,124,Open Random post,200,OK,Thread Group 1-1,text,true,,250980,459,6,6,http://192.168.56.101/blog/post/1673816944827,123,0,0
+1676379222763,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,6,6,null,0,0,0
+1676379222764,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,6,6,null,0,0,0
+1676379222415,37,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,32286,459,6,6,null,0,385,0
+1676379222798,37,Open Predefined Date,200,OK,Thread Group 1-5,text,true,,32286,459,6,6,http://192.168.56.101/blog/2022/10/06/default,36,0,0
+1676379222839,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,6,6,null,0,1,0
+1676379222841,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,6,6,null,0,0,0
+1676379222841,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,6,6,null,0,0,0
+1676379222841,17,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,31020,441,6,6,null,0,11,0
+1676379222851,17,Open Home page,200,OK,Thread Group 1-5,text,true,,31020,441,6,6,http://192.168.56.101/blog/,17,0,0
+1676379222543,10,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,30772,379,6,6,null,0,398,0
+1676379222940,10,Open Predefined Date,200,OK,Thread Group 1-3,text,true,,30772,379,6,6,http://192.168.56.101/blog/2022/10/07/default,10,0,0
+1676379222953,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,6,6,null,0,0,0
+1676379222953,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,6,6,null,0,1,0
+1676379222954,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,6,6,null,0,0,0
+1676379222604,12,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,30381,459,6,6,null,0,468,0
+1676379223071,12,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,30381,459,6,6,http://192.168.56.101/blog/2022/10/08/default,12,0,0
+1676379223086,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,6,6,null,0,0,0
+1676379222764,16,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,26492,510,6,6,null,0,334,0
+1676379223097,16,Search by Name,200,OK,Thread Group 1-1,text,true,,26492,510,6,6,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,16,0,0
+1676379222553,37,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,16519,379,6,6,null,0,542,0
+1676379223095,37,Open Random Date,200,OK,Thread Group 1-4,text,true,,16519,379,6,6,http://192.168.56.101/blog/2022/09/17/default,37,0,0
+1676379223134,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,6,6,null,0,1,0
+1676379223135,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,6,6,null,0,1,0
+1676379223136,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,6,6,null,0,0,0
+1676379222204,51,TC_start_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,31020,361,6,6,null,0,898,1
+1676379223100,51,Start_Open Home page,200,OK,Thread Group 1-6,text,true,,31020,361,6,6,http://192.168.56.101/blog/,51,0,1
+1676379222869,40,TC_Open Random page >1,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,30658,448,6,6,null,0,256,0
+1676379223124,40,Open Random page >1,200,OK,Thread Group 1-5,text,true,,30658,448,6,6,http://192.168.56.101/blog/?page=9,40,0,0
+1676379223165,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,6,6,null,0,1,0
+1676379223166,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,6,6,null,0,0,0
+1676379223153,13,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,31020,361,6,6,null,0,247,0
+1676379223399,13,Open Home page,200,OK,Thread Group 1-6,text,true,,31020,361,6,6,http://192.168.56.101/blog/,13,0,0
+1676379223414,0,TC_NOT Open Random page,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,6,6,null,0,0,0
+1676379223136,25,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,26492,430,6,6,null,0,316,0
+1676379223451,25,Search by Name,200,OK,Thread Group 1-4,text,true,,26492,430,6,6,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,25,0,0
+1676379222954,9,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,20548,368,6,6,null,0,585,0
+1676379223539,9,Open Contacts,200,OK,Thread Group 1-3,text,true,,20548,368,6,6,http://192.168.56.101/blog/contact,9,0,0
+1676379223549,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,6,6,null,0,0,0
+1676379223114,60,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,317625,459,6,6,null,0,616,0
+1676379223725,60,Open Random post,200,OK,Thread Group 1-1,text,true,,317625,459,6,6,http://192.168.56.101/blog/post/1673816829030,58,0,0
+1676379223791,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,6,6,null,0,0,0
+1676379223791,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,6,6,null,0,0,0
+1676379223477,95,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,313325,379,6,6,null,0,222,0
+1676379223692,95,Open Random post,200,OK,Thread Group 1-4,text,true,,313325,379,6,6,http://192.168.56.101/blog/post/1673816844926,43,0,0
+1676379223794,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,6,6,null,0,1,0
+1676379223795,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,6,6,null,0,0,0
+1676379223166,46,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,20625,448,6,6,null,0,846,0
+1676379224012,46,Open Contacts,200,OK,Thread Group 1-5,text,true,,20625,448,6,6,http://192.168.56.101/blog/contact,45,0,0
+1676379224059,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,6,6,null,0,0,0
+1676379223415,102,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,275616,379,6,6,null,0,569,0
+1676379223960,102,Open Random post,200,OK,Thread Group 1-6,text,true,,275616,379,6,6,http://192.168.56.101/blog/post/1673816866011,88,0,0
+1676379223087,15,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,81642,459,6,6,null,0,1010,0
+1676379224095,15,Open Random post,200,OK,Thread Group 1-2,text,true,,81642,459,6,6,http://192.168.56.101/blog/post/1673816876488,15,0,0
+1676379223549,11,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,30043,379,7,7,null,0,616,0
+1676379224164,11,Open Predefined Date,200,OK,Thread Group 1-3,text,true,,30043,379,7,7,http://192.168.56.101/blog/2022/10/09/default,10,0,0
+1676379224178,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,7,7,null,0,0,0
+1676379224059,13,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,30832,459,7,7,null,0,266,0
+1676379224324,13,Open Predefined Date,200,OK,Thread Group 1-5,text,true,,30832,459,7,7,http://192.168.56.101/blog/2022/10/10/default,13,0,0
+1676379224339,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,7,7,null,0,1,0
+1676379223791,6,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,20625,448,7,7,null,0,644,0
+1676379224434,6,Open Contacts,200,OK,Thread Group 1-1,text,true,,20625,448,7,7,http://192.168.56.101/blog/contact,6,0,0
+1676379224441,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,7,7,null,0,0,0
+1676379224179,20,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,81058,379,7,7,null,0,373,0
+1676379224550,20,Open Random post,200,OK,Thread Group 1-3,text,true,,81058,379,7,7,http://192.168.56.101/blog/post/1673816931714,20,0,0
+1676379224573,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,7,7,null,0,0,0
+1676379224573,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,7,7,null,0,0,0
+1676379223795,69,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,20548,368,7,7,null,0,786,0
+1676379224580,69,Open Contacts,200,OK,Thread Group 1-4,text,true,,20548,368,7,7,http://192.168.56.101/blog/contact,69,0,0
+1676379224650,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,7,7,null,0,0,0
+1676379224340,76,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,484578,459,7,7,null,0,235,0
+1676379224567,76,Open Random post,200,OK,Thread Group 1-5,text,true,,484578,459,7,7,http://192.168.56.101/blog/post/1673816933136,72,0,0
+1676379224140,18,TC_start_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,31020,361,7,7,null,0,627,1
+1676379224766,18,Start_Open Home page,200,OK,Thread Group 1-7,text,true,,31020,361,7,7,http://192.168.56.101/blog/,18,0,1
+1676379224573,23,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,26492,430,7,7,null,0,331,0
+1676379224882,23,Search by Name,200,OK,Thread Group 1-3,text,true,,26492,430,7,7,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,23,0,0
+1676379224087,106,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,2571,2252,7,7,null,0,767,0
+1676379224854,106,leave a comment,200,OK,Thread Group 1-6,text,true,,2571,2252,7,7,http://192.168.56.101/blog/post/1673816866011,106,0,0
+1676379224961,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,7,7,null,0,0,0
+1676379224961,15,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,20062,492,7,7,null,0,58,0
+1676379225017,15,Open Large Calendar,200,OK,Thread Group 1-6,text,true,,20062,492,7,7,http://192.168.56.101/blog/calendar/default.aspx,15,0,0
+1676379225034,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,7,7,null,0,0,0
+1676379225035,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,7,7,null,0,0,0
+1676379224650,45,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,31020,361,7,7,null,0,398,0
+1676379225047,45,Open Home page,200,OK,Thread Group 1-4,text,true,,31020,361,7,7,http://192.168.56.101/blog/,45,0,0
+1676379224441,45,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,16519,459,7,7,null,0,613,0
+1676379225053,45,Open Random Date,200,OK,Thread Group 1-1,text,true,,16519,459,7,7,http://192.168.56.101/blog/2022/09/14/default,45,0,0
+1676379225101,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,7,7,null,0,0,0
+1676379225101,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,7,7,null,0,0,0
+1676379225102,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,7,7,null,0,0,0
+1676379224786,46,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,31020,361,7,7,null,0,366,0
+1676379225150,46,Open Home page,200,OK,Thread Group 1-7,text,true,,31020,361,7,7,http://192.168.56.101/blog/,46,0,0
+1676379224113,68,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,2571,2334,7,7,null,0,1019,0
+1676379225131,68,leave a comment,200,OK,Thread Group 1-2,text,true,,2571,2334,7,7,http://192.168.56.101/blog/post/1673816876488,68,0,0
+1676379225200,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,7,7,null,0,0,0
+1676379224928,47,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,308372,379,7,7,null,0,394,0
+1676379225318,47,Open Random post,200,OK,Thread Group 1-3,text,true,,308372,379,7,7,http://192.168.56.101/blog/post/1673816948158,45,0,0
+1676379225369,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,7,7,null,0,1,0
+1676379225370,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,7,7,null,0,0,0
+1676379225370,6,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,20062,412,7,7,null,0,19,0
+1676379225388,6,Open Large Calendar,200,OK,Thread Group 1-3,text,true,,20062,412,7,7,http://192.168.56.101/blog/calendar/default.aspx,6,0,0
+1676379225395,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,7,7,null,0,1,0
+1676379225396,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,7,7,null,0,0,0
+1676379225035,11,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,20062,492,7,7,null,0,509,0
+1676379225543,11,Open Large Calendar,200,OK,Thread Group 1-6,text,true,,20062,492,7,7,http://192.168.56.101/blog/calendar/default.aspx,11,0,0
+1676379225555,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,7,7,null,0,1,0
+1676379225556,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,7,7,null,0,0,0
+1676379225093,12,TC_Open Random page =1,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,31020,361,7,7,null,0,605,0
+1676379225686,12,Open Random page =1,200,OK,Thread Group 1-4,text,true,,31020,361,7,7,http://192.168.56.101/blog/,12,0,0
+1676379225102,18,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,31388,459,7,7,null,0,598,0
+1676379225699,18,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,31388,459,7,7,http://192.168.56.101/blog/2022/10/01/default,18,0,0
+1676379225720,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,7,7,null,0,1,0
+1676379225721,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,7,7,null,0,0,0
+1676379225721,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,7,7,null,0,0,0
+1676379225198,21,TC_Open Random page >1,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,30251,368,7,7,null,0,507,0
+1676379225704,21,Open Random page >1,200,OK,Thread Group 1-7,text,true,,30251,368,7,7,http://192.168.56.101/blog/?page=2,21,0,0
+1676379225200,13,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,31020,441,7,7,null,0,625,0
+1676379225824,13,Open Home page,200,OK,Thread Group 1-2,text,true,,31020,441,7,7,http://192.168.56.101/blog/,13,0,0
+1676379225838,0,TC_NOT Open Random page,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,7,7,null,0,1,0
+1676379225839,122,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,481104,459,8,8,null,0,26,0
+1676379225857,122,Open Random post,200,OK,Thread Group 1-2,text,true,,481104,459,8,8,http://192.168.56.101/blog/post/1673816841045,119,0,0
+1676379225987,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,8,8,null,0,1,0
+1676379225988,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,8,8,null,0,0,0
+1676379224651,134,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,2571,2316,8,8,null,0,1226,0
+1676379225877,134,leave a comment,200,OK,Thread Group 1-5,text,true,,2571,2316,8,8,http://192.168.56.101/blog/post/1673816933136,133,0,0
+1676379226012,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,8,8,null,0,0,0
+1676379225722,18,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,30442,459,8,8,null,0,461,0
+1676379226181,18,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,30442,459,8,8,http://192.168.56.101/blog/2022/10/02/default,18,0,0
+1676379225556,33,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,20062,492,8,8,null,0,626,0
+1676379226181,33,Open Large Calendar,200,OK,Thread Group 1-6,text,true,,20062,492,8,8,http://192.168.56.101/blog/calendar/default.aspx,33,0,0
+1676379226215,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,8,8,null,0,0,0
+1676379226215,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,8,8,null,0,1,0
+1676379226216,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,8,8,null,0,0,0
+1676379225727,23,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,90815,379,8,8,null,0,523,0
+1676379226241,23,Open Random post,200,OK,Thread Group 1-7,text,true,,90815,379,8,8,http://192.168.56.101/blog/post/1673816907464,23,0,0
+1676379225396,103,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,16519,379,8,8,null,0,1008,0
+1676379226403,103,Open Random Date,200,OK,Thread Group 1-3,text,true,,16519,379,8,8,http://192.168.56.101/blog/2022/09/16/default,103,0,0
+1676379226509,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,8,8,null,0,0,0
+1676379226509,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,8,8,null,0,1,0
+1676379226510,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,8,8,null,0,0,0
+1676379225710,156,TC_Open first post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,548133,379,8,8,null,0,644,0
+1676379226345,156,Open first post,200,OK,Thread Group 1-4,text,true,,548133,379,8,8,http://192.168.56.101/blog/post/1673816878988,152,0,0
+1676379225988,20,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,26492,510,8,8,null,0,549,0
+1676379226536,20,Search by Name,200,OK,Thread Group 1-2,text,true,,26492,510,8,8,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,20,0,0
+1676379226215,22,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,121229,459,8,8,null,0,342,0
+1676379226554,22,Open Random post,200,OK,Thread Group 1-1,text,true,,121229,459,8,8,http://192.168.56.101/blog/post/1673816935360,22,0,0
+1676379226579,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,8,8,null,0,0,0
+1676379226579,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,8,8,null,0,0,0
+1676379226216,24,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,16519,459,8,8,null,0,344,0
+1676379226559,24,Open Random Date,200,OK,Thread Group 1-6,text,true,,16519,459,8,8,http://192.168.56.101/blog/2022/09/25/default,24,0,0
+1676379226585,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,8,8,null,0,1,0
+1676379226586,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,8,8,null,0,0,0
+1676379226587,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,8,8,null,0,0,0
+1676379226012,11,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,31020,441,8,8,null,0,583,0
+1676379226595,11,Open Home page,200,OK,Thread Group 1-5,text,true,,31020,441,8,8,http://192.168.56.101/blog/,11,0,0
+1676379226607,0,TC_NOT Open Random page,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,8,8,null,0,0,0
+1676379226607,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,8,8,null,0,0,0
+1676379226607,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,8,8,null,0,0,0
+1676379226607,10,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,16519,459,8,8,null,0,50,0
+1676379226656,10,Open Random Date,200,OK,Thread Group 1-5,text,true,,16519,459,8,8,http://192.168.56.101/blog/2022/09/18/default,10,0,0
+1676379226668,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,8,8,null,0,0,0
+1676379226669,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,8,8,null,0,0,0
+1676379226669,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,8,8,null,0,0,0
+1676379225866,10,TC_start_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,31020,361,8,8,null,0,889,1
+1676379226754,10,Start_Open Home page,200,OK,Thread Group 1-8,text,true,,31020,361,8,8,http://192.168.56.101/blog/,10,0,1
+1676379226558,48,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,245299,459,8,8,null,0,204,0
+1676379226759,48,Open Random post,200,OK,Thread Group 1-2,text,true,,245299,459,8,8,http://192.168.56.101/blog/post/1673816890431,46,0,0
+1676379226510,6,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,16517,379,8,8,null,0,381,0
+1676379226890,6,Open Random Date,200,OK,Thread Group 1-3,text,true,,16517,379,8,8,http://192.168.56.101/blog/2022/09/05/default,6,0,0
+1676379226898,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,8,8,null,0,0,0
+1676379226899,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,8,8,null,0,0,0
+1676379226899,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,8,8,null,0,0,0
+1676379226899,6,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,16519,379,8,8,null,0,53,0
+1676379226951,6,Open Random Date,200,OK,Thread Group 1-3,text,true,,16519,379,8,8,http://192.168.56.101/blog/2022/09/14/default,6,0,0
+1676379226960,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,8,8,null,0,0,0
+1676379226960,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,8,8,null,0,0,0
+1676379226961,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,8,8,null,0,0,0
+1676379226961,9,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,20062,412,8,8,null,0,158,0
+1676379227118,9,Open Large Calendar,200,OK,Thread Group 1-3,text,true,,20062,412,8,8,http://192.168.56.101/blog/calendar/default.aspx,9,0,0
+1676379227128,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,8,8,null,0,1,0
+1676379227129,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,8,8,null,0,0,0
+1676379226765,62,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,26492,430,8,8,null,0,368,0
+1676379227132,62,Search by Name,200,OK,Thread Group 1-8,text,true,,26492,430,8,8,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,62,0,0
+1676379226580,14,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,30114,459,8,8,null,0,674,0
+1676379227253,14,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,30114,459,8,8,http://192.168.56.101/blog/2022/10/03/default,14,0,0
+1676379227269,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,8,8,null,0,1,0
+1676379226273,46,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,2571,2258,8,8,null,0,981,0
+1676379227253,46,leave a comment,200,OK,Thread Group 1-7,text,true,,2571,2258,8,8,http://192.168.56.101/blog/post/1673816907464,46,0,0
+1676379227300,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,8,8,null,0,0,0
+1676379227270,27,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,108349,459,8,8,null,0,49,0
+1676379227318,27,Open Random post,200,OK,Thread Group 1-1,text,true,,108349,459,8,8,http://192.168.56.101/blog/post/1673816924747,26,0,0
+1676379227346,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,8,8,null,0,1,0
+1676379227347,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,8,8,null,0,0,0
+1676379226587,23,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,26492,510,8,8,null,0,776,0
+1676379227361,23,Search by Name,200,OK,Thread Group 1-6,text,true,,26492,510,8,8,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,23,0,0
+1676379226669,5,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,16519,459,8,8,null,0,768,0
+1676379227436,5,Open Random Date,200,OK,Thread Group 1-5,text,true,,16519,459,8,8,http://192.168.56.101/blog/2022/09/17/default,5,0,0
+1676379227444,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,8,8,null,0,0,0
+1676379227444,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,8,8,null,0,0,0
+1676379227445,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,8,8,null,0,0,0
+1676379227129,11,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,16519,379,8,8,null,0,361,0
+1676379227489,11,Open Random Date,200,OK,Thread Group 1-3,text,true,,16519,379,8,8,http://192.168.56.101/blog/2022/09/26/default,11,0,0
+1676379227503,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,8,8,null,0,0,0
+1676379227503,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,8,8,null,0,0,0
+1676379227504,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,8,8,null,0,0,0
+1676379226510,27,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,2571,2252,8,8,null,0,1018,0
+1676379227527,27,leave a comment,200,OK,Thread Group 1-4,text,true,,2571,2252,8,8,http://192.168.56.101/blog/post/1673816878988,27,0,0
+1676379227555,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,8,8,null,0,0,0
+1676379227300,8,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,31020,441,8,8,null,0,271,0
+1676379227570,8,Open Home page,200,OK,Thread Group 1-7,text,true,,31020,441,8,8,http://192.168.56.101/blog/,8,0,0
+1676379227579,0,TC_NOT Open Random page,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,8,8,null,0,1,0
+1676379227580,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,8,8,null,0,0,0
+1676379227580,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,8,8,null,0,1,0
+1676379227347,5,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,16519,459,8,8,null,0,261,0
+1676379227607,5,Open Random Date,200,OK,Thread Group 1-1,text,true,,16519,459,8,8,http://192.168.56.101/blog/2022/09/23/default,5,0,0
+1676379227634,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,8,8,null,0,0,0
+1676379227634,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,8,8,null,0,0,0
+1676379227635,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,8,8,null,0,0,0
+1676379227635,8,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32536,459,9,9,null,0,143,0
+1676379227777,8,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32536,459,9,9,http://192.168.56.101/blog/2022/10/05/default,8,0,0
+1676379227787,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,9,9,null,0,1,0
+1676379227788,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,9,9,null,0,0,0
+1676379227788,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,9,9,null,0,0,0
+1676379226811,22,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,2571,2322,9,9,null,0,1037,0
+1676379227847,22,leave a comment,200,OK,Thread Group 1-2,text,true,,2571,2322,9,9,http://192.168.56.101/blog/post/1673816890431,22,0,0
+1676379227870,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,9,9,null,0,0,0
+1676379227581,8,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,20062,492,9,9,null,0,290,0
+1676379227870,8,Open Large Calendar,200,OK,Thread Group 1-7,text,true,,20062,492,9,9,http://192.168.56.101/blog/calendar/default.aspx,8,0,0
+1676379227879,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,9,9,null,0,0,0
+1676379227880,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,9,9,null,0,0,0
+1676379227386,37,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,270591,459,9,9,null,0,515,0
+1676379227898,37,Open Random post,200,OK,Thread Group 1-6,text,true,,270591,459,9,9,http://192.168.56.101/blog/post/1673816952845,35,0,0
+1676379227880,99,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,30167,459,9,9,null,0,111,0
+1676379227990,99,Open Random Date,200,OK,Thread Group 1-7,text,true,,30167,459,9,9,http://192.168.56.101/blog/2022/10/04/default,99,0,0
+1676379228091,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,9,9,null,0,1,0
+1676379227445,42,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,30167,459,9,9,null,0,610,0
+1676379228054,42,Open Predefined Date,200,OK,Thread Group 1-5,text,true,,30167,459,9,9,http://192.168.56.101/blog/2022/10/04/default,42,0,0
+1676379228099,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,9,9,null,0,0,0
+1676379227195,159,TC_Open first post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,666379,379,9,9,null,0,764,0
+1676379227942,159,Open first post,200,OK,Thread Group 1-8,text,true,,666379,379,9,9,http://192.168.56.101/blog/post/1673816863353,139,0,0
+1676379227504,13,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,26492,430,9,9,null,0,629,0
+1676379228132,13,Search by Name,200,OK,Thread Group 1-3,text,true,,26492,430,9,9,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,13,0,0
+1676379228147,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,9,9,null,0,0,0
+1676379228147,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,9,9,null,0,0,0
+1676379227691,90,TC_start_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,31020,361,9,9,null,0,484,3
+1676379228157,90,Start_Open Home page,200,OK,Thread Group 1-9,text,true,,31020,361,9,9,http://192.168.56.101/blog/,90,0,3
+1676379228099,25,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,98355,459,9,9,null,0,198,0
+1676379228294,25,Open Random post,200,OK,Thread Group 1-5,text,true,,98355,459,9,9,http://192.168.56.101/blog/post/1673816833337,25,0,0
+1676379228322,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,9,9,null,0,0,0
+1676379228322,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,9,9,null,0,0,0
+1676379227555,7,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,16517,459,9,9,null,0,832,0
+1676379228386,7,Open Random Date,200,OK,Thread Group 1-4,text,true,,16517,459,9,9,http://192.168.56.101/blog/2022/09/09/default,7,0,0
+1676379228396,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,9,9,null,0,0,0
+1676379228396,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,9,9,null,0,0,0
+1676379228397,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,9,9,null,0,0,0
+1676379227789,12,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,26492,510,9,9,null,0,682,0
+1676379228470,12,Search by Name,200,OK,Thread Group 1-1,text,true,,26492,510,9,9,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,12,0,0
+1676379228484,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,9,9,null,0,0,0
+1676379228484,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,9,9,null,0,0,0
+1676379228092,19,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,116699,459,9,9,null,0,451,0
+1676379228541,19,Open Random post,200,OK,Thread Group 1-7,text,true,,116699,459,9,9,http://192.168.56.101/blog/post/1673816871211,18,0,0
+1676379228562,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,9,9,null,0,0,0
+1676379228562,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,9,9,null,0,1,0
+1676379228322,7,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,20062,492,9,9,null,0,289,0
+1676379228610,7,Open Large Calendar,200,OK,Thread Group 1-5,text,true,,20062,492,9,9,http://192.168.56.101/blog/calendar/default.aspx,7,0,0
+1676379228618,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,9,9,null,0,1,0
+1676379228619,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,9,9,null,0,0,0
+1676379228147,10,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,32286,379,9,9,null,0,484,0
+1676379228630,10,Open Predefined Date,200,OK,Thread Group 1-3,text,true,,32286,379,9,9,http://192.168.56.101/blog/2022/10/06/default,10,0,0
+1676379228643,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,9,9,null,0,0,0
+1676379228643,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,9,9,null,0,1,0
+1676379228644,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,9,9,null,0,0,0
+1676379228619,6,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,20062,492,9,9,null,0,99,0
+1676379228717,6,Open Large Calendar,200,OK,Thread Group 1-5,text,true,,20062,492,9,9,http://192.168.56.101/blog/calendar/default.aspx,6,0,0
+1676379228724,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,9,9,null,0,1,0
+1676379228725,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,9,9,null,0,0,0
+1676379227870,14,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,31020,441,9,9,null,0,851,0
+1676379228720,14,Open Home page,200,OK,Thread Group 1-2,text,true,,31020,441,9,9,http://192.168.56.101/blog/,14,0,0
+1676379227938,23,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,2571,2332,9,9,null,0,893,0
+1676379228830,23,leave a comment,200,OK,Thread Group 1-6,text,true,,2571,2332,9,9,http://192.168.56.101/blog/post/1673816952845,23,0,0
+1676379228854,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,9,9,null,0,0,0
+1676379228397,6,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,20062,492,9,9,null,0,466,0
+1676379228862,6,Open Large Calendar,200,OK,Thread Group 1-4,text,true,,20062,492,9,9,http://192.168.56.101/blog/calendar/default.aspx,6,0,0
+1676379228869,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,9,9,null,0,1,0
+1676379228870,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,9,9,null,0,0,0
+1676379228563,14,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,26492,510,9,9,null,0,304,0
+1676379228866,14,Search by Name,200,OK,Thread Group 1-7,text,true,,26492,510,9,9,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,14,0,0
+1676379228484,18,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,31020,441,9,9,null,0,441,0
+1676379228925,18,Open Home page,200,OK,Thread Group 1-1,text,true,,31020,441,9,9,http://192.168.56.101/blog/,17,0,0
+1676379228944,0,TC_NOT Open Random page,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,9,9,null,0,0,0
+1676379228854,12,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,26492,510,9,9,null,0,90,0
+1676379228943,12,Search by Name,200,OK,Thread Group 1-6,text,true,,26492,510,9,9,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,12,0,0
+1676379228957,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,9,9,null,0,0,0
+1676379228957,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,9,9,null,0,0,0
+1676379228870,25,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,26492,510,9,9,null,0,81,0
+1676379228950,25,Search by Name,200,OK,Thread Group 1-4,text,true,,26492,510,9,9,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,25,0,0
+1676379228976,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,9,9,null,0,1,0
+1676379228977,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,9,9,null,0,0,0
+1676379228736,23,TC_Open Random page >1,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,30329,448,9,9,null,0,279,0
+1676379229014,23,Open Random page >1,200,OK,Thread Group 1-2,text,true,,30329,448,9,9,http://192.168.56.101/blog/?page=8,23,0,0
+1676379229038,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,9,9,null,0,0,0
+1676379229038,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,9,9,null,0,0,0
+1676379228265,13,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,31020,361,9,9,null,0,857,0
+1676379229121,13,Open Home page,200,OK,Thread Group 1-9,text,true,,31020,361,9,9,http://192.168.56.101/blog/,13,0,0
+1676379229135,0,TC_NOT Open Random page,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,9,9,null,0,0,0
+1676379229135,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,9,9,null,0,1,0
+1676379229136,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,9,9,null,0,0,0
+1676379228881,75,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,282634,459,9,9,null,0,246,0
+1676379229122,75,Open Random post,200,OK,Thread Group 1-7,text,true,,282634,459,9,9,http://192.168.56.101/blog/post/1673816914544,73,0,0
+1676379229202,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,9,9,null,0,1,0
+1676379229203,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,9,9,null,0,0,0
+1676379228725,22,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,16519,459,9,9,null,0,602,0
+1676379229326,22,Open Random Date,200,OK,Thread Group 1-5,text,true,,16519,459,9,9,http://192.168.56.101/blog/2022/09/12/default,22,0,0
+1676379229350,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,9,9,null,0,0,0
+1676379229351,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,9,9,null,0,0,0
+1676379229351,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,9,9,null,0,0,0
+1676379228118,171,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,2575,2261,9,9,null,0,1063,0
+1676379229180,171,leave a comment,200,OK,Thread Group 1-8,text,true,,2575,2261,9,9,http://192.168.56.101/blog/post/1673816863353,171,0,0
+1676379229352,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-8,,true,,0,0,9,9,null,0,0,0
+1676379228957,16,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,20062,492,9,9,null,0,394,0
+1676379229350,16,Open Large Calendar,200,OK,Thread Group 1-6,text,true,,20062,492,9,9,http://192.168.56.101/blog/calendar/default.aspx,16,0,0
+1676379229367,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,9,9,null,0,1,0
+1676379229368,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,9,9,null,0,0,0
+1676379229351,7,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,20625,448,9,9,null,0,26,0
+1676379229377,7,Open Contacts,200,OK,Thread Group 1-5,text,true,,20625,448,9,9,http://192.168.56.101/blog/contact,7,0,0
+1676379229385,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,9,9,null,0,0,0
+1676379228944,56,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,267685,459,9,9,null,0,460,0
+1676379229400,56,Open Random post,200,OK,Thread Group 1-1,text,true,,267685,459,9,9,http://192.168.56.101/blog/post/1673816891555,54,0,0
+1676379228644,63,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,20062,412,9,9,null,0,758,0
+1676379229401,63,Open Large Calendar,200,OK,Thread Group 1-3,text,true,,20062,412,9,9,http://192.168.56.101/blog/calendar/default.aspx,63,0,0
+1676379229465,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,9,9,null,0,0,0
+1676379229466,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,9,9,null,0,0,0
+1676379229136,15,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,26492,430,9,9,null,0,354,0
+1676379229489,15,Search by Name,200,OK,Thread Group 1-9,text,true,,26492,430,9,9,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,14,0,0
+1676379229203,9,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,31020,441,9,9,null,0,453,0
+1676379229655,9,Open Home page,200,OK,Thread Group 1-7,text,true,,31020,441,9,9,http://192.168.56.101/blog/,9,0,0
+1676379228977,65,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,30167,459,9,9,null,0,795,0
+1676379229771,65,Open Random Date,200,OK,Thread Group 1-4,text,true,,30167,459,9,9,http://192.168.56.101/blog/2022/10/04/default,65,0,0
+1676379229839,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,9,9,null,0,0,0
+1676379229839,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,9,9,null,0,0,0
+1676379229839,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,9,9,null,0,1,0
+1676379229505,86,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,485725,379,9,9,null,0,253,0
+1676379229752,86,Open Random post,200,OK,Thread Group 1-9,text,true,,485725,379,9,9,http://192.168.56.101/blog/post/1673816933136,73,0,0
+1676379229844,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,9,9,null,0,0,0
+1676379229844,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,9,9,null,0,0,0
+1676379229038,6,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,20625,448,9,9,null,0,850,0
+1676379229887,6,Open Contacts,200,OK,Thread Group 1-2,text,true,,20625,448,9,9,http://192.168.56.101/blog/contact,6,0,0
+1676379229894,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,9,9,null,0,0,0
+1676379229840,9,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,30772,459,9,9,null,0,181,0
+1676379230021,9,Open Predefined Date,200,OK,Thread Group 1-4,text,true,,30772,459,9,9,http://192.168.56.101/blog/2022/10/07/default,9,0,0
+1676379230032,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,9,9,null,0,0,0
+1676379230032,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,9,9,null,0,0,0
+1676379230033,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,9,9,null,0,0,0
+1676379229466,11,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,26492,430,9,9,null,0,588,0
+1676379230053,11,Search by Name,200,OK,Thread Group 1-3,text,true,,26492,430,9,9,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,11,0,0
+1676379229352,19,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,20062,494,9,9,null,0,715,0
+1676379230066,19,Open Large Calendar,200,OK,Thread Group 1-8,text,true,,20062,494,9,9,http://192.168.56.101/blog/calendar/default.aspx,19,0,0
+1676379230086,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-8,,true,,0,0,9,9,null,0,0,0
+1676379230087,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-8,,true,,0,0,9,9,null,0,0,0
+1676379229894,5,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,20625,448,9,9,null,0,209,0
+1676379230103,5,Open Contacts,200,OK,Thread Group 1-2,text,true,,20625,448,9,9,http://192.168.56.101/blog/contact,5,0,0
+1676379230109,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,9,9,null,0,0,0
+1676379229844,6,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,16519,379,10,10,null,0,342,0
+1676379230185,6,Open Random Date,200,OK,Thread Group 1-9,text,true,,16519,379,9,9,http://192.168.56.101/blog/2022/09/13/default,6,0,0
+1676379230194,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,10,10,null,0,0,0
+1676379230194,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,10,10,null,0,0,0
+1676379230194,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,10,10,null,0,0,0
+1676379229368,11,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,20625,448,10,10,null,0,977,0
+1676379230344,11,Open Contacts,200,OK,Thread Group 1-6,text,true,,20625,448,10,10,http://192.168.56.101/blog/contact,11,0,0
+1676379230356,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,10,10,null,0,0,0
+1676379229665,16,TC_Open Random page =1,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,31020,441,10,10,null,0,763,0
+1676379230427,16,Open Random page =1,200,OK,Thread Group 1-7,text,true,,31020,441,10,10,http://192.168.56.101/blog/,16,0,0
+1676379230445,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,10,10,null,0,0,0
+1676379230445,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,10,10,null,0,1,0
+1676379229385,17,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,26492,510,10,10,null,0,1100,0
+1676379230485,17,Search by Name,200,OK,Thread Group 1-5,text,true,,26492,510,10,10,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,17,0,0
+1676379230503,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,10,10,null,0,0,0
+1676379230503,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,10,10,null,0,0,0
+1676379230356,7,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,30043,459,10,10,null,0,169,0
+1676379230524,7,Open Predefined Date,200,OK,Thread Group 1-6,text,true,,30043,459,10,10,http://192.168.56.101/blog/2022/10/09/default,7,0,0
+1676379230534,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,10,10,null,0,0,0
+1676379230033,7,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,30381,459,10,10,null,0,531,0
+1676379230563,7,Open Predefined Date,200,OK,Thread Group 1-4,text,true,,30381,459,10,10,http://192.168.56.101/blog/2022/10/08/default,7,0,0
+1676379230584,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,10,10,null,0,0,0
+1676379229460,21,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2571,2336,10,10,null,0,1132,0
+1676379230591,21,leave a comment,200,OK,Thread Group 1-1,text,true,,2571,2336,10,10,http://192.168.56.101/blog/post/1673816891555,21,0,0
+1676379230613,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,10,10,null,0,0,0
+1676379230087,5,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,16519,461,10,10,null,0,553,0
+1676379230639,5,Open Random Date,200,OK,Thread Group 1-8,text,true,,16519,461,10,10,http://192.168.56.101/blog/2022/09/13/default,5,0,0
+1676379230646,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-8,,true,,0,0,10,10,null,0,0,0
+1676379230647,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-8,,true,,0,0,10,10,null,0,0,0
+1676379230647,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-8,,true,,0,0,10,10,null,0,0,0
+1676379230446,8,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,31020,441,10,10,null,0,257,0
+1676379230702,8,Open Home page,200,OK,Thread Group 1-7,text,true,,31020,441,10,10,http://192.168.56.101/blog/,8,0,0
+1676379230711,0,TC_NOT Open Random page,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,10,10,null,0,0,0
+1676379230711,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,10,10,null,0,1,0
+1676379230712,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,10,10,null,0,0,0
+1676379230066,110,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,667528,379,10,10,null,0,649,0
+1676379230706,110,Open Random post,200,OK,Thread Group 1-3,text,true,,667528,379,10,10,http://192.168.56.101/blog/post/1673816863353,107,0,0
+1676379230503,9,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,20062,492,10,10,null,0,362,0
+1676379230864,9,Open Large Calendar,200,OK,Thread Group 1-5,text,true,,20062,492,10,10,http://192.168.56.101/blog/calendar/default.aspx,9,0,0
+1676379230874,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,10,10,null,0,0,0
+1676379230874,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,10,10,null,0,0,0
+1676379230109,23,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,20625,448,10,10,null,0,758,0
+1676379230866,23,Open Contacts,200,OK,Thread Group 1-2,text,true,,20625,448,10,10,http://192.168.56.101/blog/contact,23,0,0
+1676379230890,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,10,10,null,0,0,0
+1676379230194,21,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,26492,430,10,10,null,0,687,0
+1676379230880,21,Search by Name,200,OK,Thread Group 1-9,text,true,,26492,430,10,10,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,21,0,0
+1676379230902,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,10,10,null,0,0,0
+1676379230902,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,10,10,null,0,0,0
+1676379230192,24,TC_start_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,31020,361,10,10,null,0,744,1
+1676379230935,24,Start_Open Home page,200,OK,Thread Group 1-10,text,true,,31020,361,10,10,http://192.168.56.101/blog/,24,0,1
+1676379230712,6,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,20625,448,10,10,null,0,256,0
+1676379230968,6,Open Contacts,200,OK,Thread Group 1-7,text,true,,20625,448,10,10,http://192.168.56.101/blog/contact,6,0,0
+1676379230975,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,10,10,null,0,0,0
+1676379230584,19,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,99185,459,10,10,null,0,406,0
+1676379230988,19,Open Random post,200,OK,Thread Group 1-4,text,true,,99185,459,10,10,http://192.168.56.101/blog/post/1673816851301,19,0,0
+1676379231009,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,10,10,null,0,0,0
+1676379231009,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,10,10,null,0,0,0
+1676379230647,13,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,20062,494,10,10,null,0,430,0
+1676379231076,13,Open Large Calendar,200,OK,Thread Group 1-8,text,true,,20062,494,10,10,http://192.168.56.101/blog/calendar/default.aspx,13,0,0
+1676379231090,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-8,,true,,0,0,10,10,null,0,0,0
+1676379231091,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-8,,true,,0,0,10,10,null,0,0,0
+1676379230975,8,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,31388,459,10,10,null,0,171,0
+1676379231145,8,Open Predefined Date,200,OK,Thread Group 1-7,text,true,,31388,459,10,10,http://192.168.56.101/blog/2022/10/01/default,8,0,0
+1676379231156,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,10,10,null,0,0,0
+1676379230613,15,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,26492,510,10,10,null,0,680,0
+1676379231291,15,Search by Name,200,OK,Thread Group 1-1,text,true,,26492,510,10,10,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,15,0,0
+1676379231308,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,10,10,null,0,0,0
+1676379231308,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,10,10,null,0,1,0
+1676379230902,24,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,30442,379,10,10,null,0,390,0
+1676379231292,24,Open Random Date,200,OK,Thread Group 1-9,text,true,,30442,379,10,10,http://192.168.56.101/blog/2022/10/02/default,24,0,0
+1676379231318,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,10,10,null,0,0,0
+1676379231318,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,10,10,null,0,1,0
+1676379231319,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,10,10,null,0,0,0
+1676379231009,7,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,20062,492,10,10,null,0,311,0
+1676379231319,7,Open Large Calendar,200,OK,Thread Group 1-4,text,true,,20062,492,10,10,http://192.168.56.101/blog/calendar/default.aspx,7,0,0
+1676379231327,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,10,10,null,0,0,0
+1676379231327,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,10,10,null,0,0,0
+1676379230535,69,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,283811,459,10,10,null,0,791,0
+1676379231321,69,Open Random post,200,OK,Thread Group 1-6,text,true,,283811,459,10,10,http://192.168.56.101/blog/post/1673816864751,68,0,0
+1676379231395,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,10,10,null,0,1,0
+1676379231396,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,10,10,null,0,0,0
+1676379230825,38,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,2571,2258,10,10,null,0,678,0
+1676379231502,38,leave a comment,200,OK,Thread Group 1-3,text,true,,2571,2258,10,10,http://192.168.56.101/blog/post/1673816863353,38,0,0
+1676379231541,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,10,10,null,0,0,0
+1676379231396,39,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,20062,492,10,10,null,0,115,0
+1676379231510,39,Open Large Calendar,200,OK,Thread Group 1-6,text,true,,20062,492,10,10,http://192.168.56.101/blog/calendar/default.aspx,39,0,0
+1676379231550,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,10,10,null,0,0,0
+1676379231551,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,10,10,null,0,0,0
+1676379230960,6,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,20062,412,10,10,null,0,600,0
+1676379231559,6,Open Large Calendar,200,OK,Thread Group 1-10,text,true,,20062,412,10,10,http://192.168.56.101/blog/calendar/default.aspx,6,0,0
+1676379231566,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-10,,true,,0,0,10,10,null,0,1,0
+1676379231567,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-10,,true,,0,0,10,10,null,0,0,0
+1676379231156,18,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,91140,459,10,10,null,0,439,0
+1676379231593,18,Open Random post,200,OK,Thread Group 1-7,text,true,,91140,459,10,10,http://192.168.56.101/blog/post/1673816854986,17,0,0
+1676379231613,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,10,10,null,0,0,0
+1676379231613,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,10,10,null,0,0,0
+1676379231091,6,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,20627,450,10,10,null,0,622,0
+1676379231712,6,Open Contacts,200,OK,Thread Group 1-8,text,true,,20627,450,10,10,http://192.168.56.101/blog/contact,6,0,0
+1676379231719,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-8,,true,,0,0,10,10,null,0,0,0
+1676379230874,14,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,30832,459,10,10,null,0,841,0
+1676379231714,14,Open Predefined Date,200,OK,Thread Group 1-5,text,true,,30832,459,10,10,http://192.168.56.101/blog/2022/10/10/default,14,0,0
+1676379231731,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,10,10,null,0,0,0
+1676379230890,9,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,20062,492,10,10,null,0,890,0
+1676379231779,9,Open Large Calendar,200,OK,Thread Group 1-2,text,true,,20062,492,10,10,http://192.168.56.101/blog/calendar/default.aspx,9,0,0
+1676379231789,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,10,10,null,0,0,0
+1676379231789,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,10,10,null,0,0,0
+1676379231613,11,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,31020,441,10,10,null,0,174,0
+1676379231786,11,Open Home page,200,OK,Thread Group 1-7,text,true,,31020,441,10,10,http://192.168.56.101/blog/,11,0,0
+1676379231319,8,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,31020,361,11,11,null,0,632,0
+1676379231950,8,Open Home page,200,OK,Thread Group 1-9,text,true,,31020,361,11,11,http://192.168.56.101/blog/,8,0,0
+1676379231959,0,TC_NOT Open Random page,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,11,11,null,0,0,0
+1676379231959,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,11,11,null,0,0,0
+1676379231960,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,11,11,null,0,0,0
+1676379231327,12,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,26492,510,11,11,null,0,687,0
+1676379232013,12,Search by Name,200,OK,Thread Group 1-4,text,true,,26492,510,11,11,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,12,0,0
+1676379231309,8,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,20062,492,11,11,null,0,734,0
+1676379232042,8,Open Large Calendar,200,OK,Thread Group 1-1,text,true,,20062,492,11,11,http://192.168.56.101/blog/calendar/default.aspx,8,0,0
+1676379232051,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,11,11,null,0,1,0
+1676379232052,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,11,11,null,0,0,0
+1676379231551,6,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,20062,492,11,11,null,0,527,0
+1676379232077,6,Open Large Calendar,200,OK,Thread Group 1-6,text,true,,20062,492,11,11,http://192.168.56.101/blog/calendar/default.aspx,6,0,0
+1676379232084,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,11,11,null,0,0,0
+1676379232084,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,11,11,null,0,0,0
+1676379231731,160,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,485725,459,11,11,null,0,421,0
+1676379232144,160,Open Random post,200,OK,Thread Group 1-5,text,true,,485725,459,11,11,http://192.168.56.101/blog/post/1673816933136,157,0,0
+1676379231541,43,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,26492,510,11,11,null,0,735,0
+1676379232275,43,Search by Name,200,OK,Thread Group 1-3,text,true,,26492,510,11,11,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,43,0,0
+1676379231567,54,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,31020,361,11,11,null,0,709,0
+1676379232275,54,Open Home page,200,OK,Thread Group 1-10,text,true,,31020,361,11,11,http://192.168.56.101/blog/,54,0,0
+1676379232330,0,TC_NOT Open Random page,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-10,,true,,0,0,11,11,null,0,1,0
+1676379232331,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-10,,true,,0,0,11,11,null,0,0,0
+1676379232331,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-10,,true,,0,0,11,11,null,0,0,0
+1676379231720,63,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,31020,443,11,11,null,0,559,0
+1676379232278,63,Open Home page,200,OK,Thread Group 1-8,text,true,,31020,443,11,11,http://192.168.56.101/blog/,63,0,0
+1676379231798,43,TC_Open Random page >1,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,32751,448,11,11,null,0,512,0
+1676379232309,43,Open Random page >1,200,OK,Thread Group 1-7,text,true,,32751,448,11,11,http://192.168.56.101/blog/?page=6,43,0,0
+1676379231838,20,TC_start_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,31020,361,11,11,null,0,504,1
+1676379232341,20,Start_Open Home page,200,OK,Thread Group 1-11,text,true,,31020,361,11,11,http://192.168.56.101/blog/,20,0,1
+1676379232052,6,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,20062,492,11,11,null,0,429,0
+1676379232480,6,Open Large Calendar,200,OK,Thread Group 1-1,text,true,,20062,492,11,11,http://192.168.56.101/blog/calendar/default.aspx,6,0,0
+1676379232487,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,11,11,null,0,0,0
+1676379232487,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,11,11,null,0,0,0
+1676379232084,15,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,26492,510,11,11,null,0,402,0
+1676379232485,15,Search by Name,200,OK,Thread Group 1-6,text,true,,26492,510,11,11,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,15,0,0
+1676379232501,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,11,11,null,0,0,0
+1676379232501,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,11,11,null,0,0,0
+1676379232026,42,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,304944,459,11,11,null,0,521,0
+1676379232541,42,Open Random post,200,OK,Thread Group 1-4,text,true,,304944,459,11,11,http://192.168.56.101/blog/post/1673816954458,41,0,0
+1676379231789,6,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,20062,492,11,11,null,0,869,0
+1676379232658,6,Open Large Calendar,200,OK,Thread Group 1-2,text,true,,20062,492,11,11,http://192.168.56.101/blog/calendar/default.aspx,6,0,0
+1676379232664,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,11,11,null,0,0,0
+1676379232665,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,11,11,null,0,0,0
+1676379231960,14,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,20062,412,11,11,null,0,800,0
+1676379232760,14,Open Large Calendar,200,OK,Thread Group 1-9,text,true,,20062,412,11,11,http://192.168.56.101/blog/calendar/default.aspx,14,0,0
+1676379232775,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,11,11,null,0,0,0
+1676379232775,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,11,11,null,0,0,0
+1676379232362,8,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,31020,361,11,11,null,0,415,0
+1676379232776,8,Open Home page,200,OK,Thread Group 1-11,text,true,,31020,361,11,11,http://192.168.56.101/blog/,8,0,0
+1676379232501,8,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,16519,459,11,11,null,0,291,0
+1676379232791,8,Open Random Date,200,OK,Thread Group 1-6,text,true,,16519,459,11,11,http://192.168.56.101/blog/2022/09/16/default,8,0,0
+1676379232801,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,11,11,null,0,0,0
+1676379232802,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,11,11,null,0,0,0
+1676379232802,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,11,11,null,0,0,0
+1676379232343,6,TC_Open Random page >1,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,30251,450,11,11,null,0,491,0
+1676379232833,6,Open Random page >1,200,OK,Thread Group 1-8,text,true,,30251,450,11,11,http://192.168.56.101/blog/?page=2,6,0,0
+1676379232840,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-8,,true,,0,0,11,11,null,0,0,0
+1676379232841,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-8,,true,,0,0,11,11,null,0,0,0
+1676379232331,5,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,20062,412,11,11,null,0,538,0
+1676379232868,5,Open Large Calendar,200,OK,Thread Group 1-10,text,true,,20062,412,11,11,http://192.168.56.101/blog/calendar/default.aspx,5,0,0
+1676379232874,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-10,,true,,0,0,11,11,null,0,0,0
+1676379232874,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-10,,true,,0,0,11,11,null,0,0,0
+1676379232487,6,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,20062,492,11,11,null,0,389,0
+1676379232876,6,Open Large Calendar,200,OK,Thread Group 1-1,text,true,,20062,492,11,11,http://192.168.56.101/blog/calendar/default.aspx,6,0,0
+1676379232883,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,11,11,null,0,0,0
+1676379232883,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,11,11,null,0,0,0
+1676379232319,59,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,282634,459,11,11,null,0,635,0
+1676379232950,59,Open Random post,200,OK,Thread Group 1-3,text,true,,282634,459,11,11,http://192.168.56.101/blog/post/1673816914544,57,0,0
+1676379232353,50,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,98857,459,11,11,null,0,621,0
+1676379232973,50,Open Random post,200,OK,Thread Group 1-7,text,true,,98857,459,11,11,http://192.168.56.101/blog/post/1673816927464,49,0,0
+1676379232775,33,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,16519,379,11,11,null,0,220,0
+1676379232995,33,Open Random Date,200,OK,Thread Group 1-9,text,true,,16519,379,11,11,http://192.168.56.101/blog/2022/09/29/default,33,0,0
+1676379233030,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,11,11,null,0,0,0
+1676379233030,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,11,11,null,0,0,0
+1676379233030,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,11,11,null,0,0,0
+1676379232802,44,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,20062,492,11,11,null,0,312,0
+1676379233113,44,Open Large Calendar,200,OK,Thread Group 1-6,text,true,,20062,492,11,11,http://192.168.56.101/blog/calendar/default.aspx,44,0,0
+1676379233158,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,11,11,null,0,0,0
+1676379233166,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,11,11,null,0,1,0
+1676379233030,19,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,20548,368,11,11,null,0,200,0
+1676379233230,19,Open Contacts,200,OK,Thread Group 1-9,text,true,,20548,368,11,11,http://192.168.56.101/blog/contact,19,0,0
+1676379233250,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,11,11,null,0,0,0
+1676379232785,25,TC_Open Random page >1,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,30382,368,11,11,null,0,447,0
+1676379233231,25,Open Random page >1,200,OK,Thread Group 1-11,text,true,,30382,368,11,11,http://192.168.56.101/blog/?page=7,25,0,0
+1676379232665,31,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,30442,459,11,11,null,0,570,0
+1676379233234,31,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,30442,459,11,11,http://192.168.56.101/blog/2022/10/02/default,31,0,0
+1676379233267,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,11,11,null,0,0,0
+1676379232883,9,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,20062,492,11,11,null,0,531,0
+1676379233414,9,Open Large Calendar,200,OK,Thread Group 1-1,text,true,,20062,492,11,11,http://192.168.56.101/blog/calendar/default.aspx,9,0,0
+1676379233424,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,11,11,null,0,0,0
+1676379233424,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,11,11,null,0,0,0
+1676379232841,10,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,20627,450,11,11,null,0,618,0
+1676379233459,10,Open Contacts,200,OK,Thread Group 1-8,text,true,,20627,450,11,11,http://192.168.56.101/blog/contact,10,0,0
+1676379233470,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-8,,true,,0,0,11,11,null,0,0,0
+1676379232589,42,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,2571,2338,11,11,null,0,874,0
+1676379233463,42,leave a comment,200,OK,Thread Group 1-4,text,true,,2571,2338,11,11,http://192.168.56.101/blog/post/1673816954458,38,0,0
+1676379233505,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-4,,true,,0,0,11,11,null,0,0,0
+1676379233167,6,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,30114,459,11,11,null,0,398,0
+1676379233564,6,Open Predefined Date,200,OK,Thread Group 1-6,text,true,,30114,459,11,11,http://192.168.56.101/blog/2022/10/03/default,6,0,0
+1676379233572,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,11,11,null,0,0,0
+1676379233250,21,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,26492,430,11,11,null,0,343,0
+1676379233593,21,Search by Name,200,OK,Thread Group 1-9,text,true,,26492,430,11,11,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,21,0,0
+1676379233614,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,11,11,null,0,1,0
+1676379233615,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,11,11,null,0,0,0
+1676379232874,11,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,20548,368,11,11,null,0,734,0
+1676379233608,11,Open Contacts,200,OK,Thread Group 1-10,text,true,,20548,368,11,11,http://192.168.56.101/blog/contact,11,0,0
+1676379233620,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-10,,true,,0,0,11,11,null,0,0,0
+1676379233024,19,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,2571,2316,11,11,null,0,645,0
+1676379233668,19,leave a comment,200,OK,Thread Group 1-7,text,true,,2571,2316,11,11,http://192.168.56.101/blog/post/1673816927464,19,0,0
+1676379233688,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,11,11,null,0,0,0
+1676379233424,26,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,30167,459,11,11,null,0,252,0
+1676379233675,26,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,30167,459,11,11,http://192.168.56.101/blog/2022/10/04/default,26,0,0
+1676379233703,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,11,11,null,0,1,0
+1676379233704,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,11,11,null,0,0,0
+1676379233704,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,11,11,null,0,0,0
+1676379233257,25,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,87121,379,12,12,null,0,493,0
+1676379233747,25,Open Random post,200,OK,Thread Group 1-11,text,true,,87121,379,12,12,http://192.168.56.101/blog/post/1673816858244,25,0,0
+1676379233013,29,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,2571,2322,12,12,null,0,851,0
+1676379233864,29,leave a comment,200,OK,Thread Group 1-3,text,true,,2571,2322,12,12,http://192.168.56.101/blog/post/1673816914544,29,0,0
+1676379233893,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,12,12,null,0,1,0
+1676379232312,28,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,2571,2326,12,12,null,0,1594,0
+1676379233905,28,leave a comment,200,OK,Thread Group 1-5,text,true,,2571,2326,12,12,http://192.168.56.101/blog/post/1673816933136,28,0,0
+1676379233934,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-5,,true,,0,0,12,12,null,0,0,0
+1676379233572,18,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,108349,459,12,12,null,0,497,0
+1676379234067,18,Open Random post,200,OK,Thread Group 1-6,text,true,,108349,459,12,12,http://192.168.56.101/blog/post/1673816924747,18,0,0
+1676379233470,13,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,26492,512,12,12,null,0,617,0
+1676379234086,13,Search by Name,200,OK,Thread Group 1-8,text,true,,26492,512,12,12,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,13,0,0
+1676379234100,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-8,,true,,0,0,12,12,null,0,0,0
+1676379234100,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-8,,true,,0,0,12,12,null,0,1,0
+1676379233620,14,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,32536,379,12,12,null,0,491,0
+1676379234110,14,Open Predefined Date,200,OK,Thread Group 1-10,text,true,,32536,379,12,12,http://192.168.56.101/blog/2022/10/05/default,13,0,0
+1676379234127,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-10,,true,,0,0,12,12,null,0,0,0
+1676379234127,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-10,,true,,0,0,12,12,null,0,0,0
+1676379234128,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-10,,true,,0,0,12,12,null,0,0,0
+1676379233505,12,TC_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,31020,441,12,12,null,0,653,0
+1676379234157,12,Open Home page,200,OK,Thread Group 1-4,text,true,,31020,441,12,12,http://192.168.56.101/blog/,12,0,0
+1676379233688,7,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,20062,492,12,12,null,0,513,0
+1676379234200,7,Open Large Calendar,200,OK,Thread Group 1-7,text,true,,20062,492,12,12,http://192.168.56.101/blog/calendar/default.aspx,7,0,0
+1676379234208,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,12,12,null,0,1,0
+1676379234209,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,12,12,null,0,0,0
+1676379233268,28,TC_Open first post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,113537,459,12,12,null,0,1094,0
+1676379234352,28,Open first post,200,OK,Thread Group 1-2,text,true,,113537,459,12,12,http://192.168.56.101/blog/post/1673816881417,28,0,0
+1676379233894,38,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,20062,492,12,12,null,0,458,0
+1676379234352,38,Open Large Calendar,200,OK,Thread Group 1-3,text,true,,20062,492,12,12,http://192.168.56.101/blog/calendar/default.aspx,38,0,0
+1676379234391,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,12,12,null,0,0,0
+1676379234391,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,12,12,null,0,0,0
+1676379234391,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,12,12,null,0,0,0
+1676379234391,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,12,12,null,0,0,0
+1676379233615,10,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,20548,368,12,12,null,0,792,0
+1676379234406,10,Open Contacts,200,OK,Thread Group 1-9,text,true,,20548,368,12,12,http://192.168.56.101/blog/contact,10,0,0
+1676379234417,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,12,12,null,0,0,0
+1676379233769,14,TC_start_Open Home page,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,31020,361,12,12,null,0,650,1
+1676379234418,14,Start_Open Home page,200,OK,Thread Group 1-12,text,true,,31020,361,12,12,http://192.168.56.101/blog/,14,0,1
+1676379233704,12,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,32286,459,12,12,null,0,772,0
+1676379234476,12,Open Predefined Date,200,OK,Thread Group 1-1,text,true,,32286,459,12,12,http://192.168.56.101/blog/2022/10/06/default,11,0,0
+1676379234490,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,12,12,null,0,0,0
+1676379234491,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,12,12,null,0,0,0
+1676379234491,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,12,12,null,0,0,0
+1676379233934,19,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,26492,510,12,12,null,0,570,0
+1676379234503,19,Search by Name,200,OK,Thread Group 1-5,text,true,,26492,510,12,12,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,19,0,0
+1676379233775,16,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,2571,2236,12,12,null,0,826,0
+1676379234600,16,leave a comment,200,OK,Thread Group 1-11,text,true,,2571,2236,12,12,http://192.168.56.101/blog/post/1673816858244,16,0,0
+1676379234617,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-11,,true,,0,0,12,12,null,0,0,0
+1676379234128,27,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,26492,430,12,12,null,0,475,0
+1676379234602,27,Search by Name,200,OK,Thread Group 1-10,text,true,,26492,430,12,12,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,27,0,0
+1676379234433,7,TC_Open Large Calendar,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,20062,412,12,12,null,0,236,0
+1676379234669,7,Open Large Calendar,200,OK,Thread Group 1-12,text,true,,20062,412,12,12,http://192.168.56.101/blog/calendar/default.aspx,7,0,0
+1676379234677,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,0,0
+1676379234677,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,0,0
+1676379234087,21,TC_leave a comment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,2571,2310,12,12,null,0,596,0
+1676379234683,21,leave a comment,200,OK,Thread Group 1-6,text,true,,2571,2310,12,12,http://192.168.56.101/blog/post/1673816924747,21,0,0
+1676379234705,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,12,12,null,0,0,0
+1676379234391,32,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,,16519,459,12,12,null,0,304,0
+1676379234694,32,Open Random Date,200,OK,Thread Group 1-3,text,true,,16519,459,12,12,http://192.168.56.101/blog/2022/09/10/default,32,0,0
+1676379234729,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,12,12,null,0,0,0
+1676379234729,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,12,12,null,0,0,0
+1676379234729,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-3,,true,,0,0,12,12,null,0,0,0
+1676379234391,8,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,30043,459,12,12,null,0,416,0
+1676379234806,8,Open Predefined Date,200,OK,Thread Group 1-2,text,true,,30043,459,12,12,http://192.168.56.101/blog/2022/10/09/default,8,0,0
+1676379234816,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-2,,true,,0,0,12,12,null,0,0,0
+1676379234209,12,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,30381,459,12,12,null,0,601,0
+1676379234809,12,Open Predefined Date,200,OK,Thread Group 1-7,text,true,,30381,459,12,12,http://192.168.56.101/blog/2022/10/08/default,12,0,0
+1676379234823,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,12,12,null,0,0,0
+1676379234823,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,12,12,null,0,1,0
+1676379234824,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,12,12,null,0,0,0
+1676379234101,7,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-8,,true,,30772,461,12,12,null,0,767,0
+1676379234867,7,Open Predefined Date,200,OK,Thread Group 1-8,text,true,,30772,461,12,12,http://192.168.56.101/blog/2022/10/07/default,7,0,0
+1676379234876,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-8,,true,,0,0,12,12,null,0,0,0
+1676379234877,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-8,,true,,0,0,12,12,null,0,0,0
+1676379234877,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-8,,true,,0,0,12,12,null,0,0,0
+1676379234705,6,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-6,,true,,16519,459,12,12,null,0,305,0
+1676379235009,6,Open Random Date,200,OK,Thread Group 1-6,text,true,,16519,459,12,12,http://192.168.56.101/blog/2022/09/16/default,6,0,0
+1676379235017,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,12,12,null,0,0,0
+1676379235017,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,12,12,null,0,1,0
+1676379235018,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-6,,true,,0,0,12,12,null,0,0,0
+1676379234824,5,TC_Open Contacts,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-7,,true,,20625,448,12,12,null,0,226,0
+1676379235050,5,Open Contacts,200,OK,Thread Group 1-7,text,true,,20625,448,12,12,http://192.168.56.101/blog/contact,5,0,0
+1676379235055,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-7,,true,,0,0,12,12,null,0,0,0
+1676379234630,31,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-10,,true,,265496,379,12,12,null,0,433,0
+1676379235059,31,Open Random post,200,OK,Thread Group 1-10,text,true,,265496,379,12,12,http://192.168.56.101/blog/post/1673816940012,29,0,0
+1676379235094,0,TC_NO Comment,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-10,,true,,0,0,12,12,null,0,0,0
+1676379235094,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-10,,true,,0,0,12,12,null,0,0,0
+1676379234417,12,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,16519,379,12,12,null,0,698,0
+1676379235114,12,Open Random Date,200,OK,Thread Group 1-9,text,true,,16519,379,12,12,http://192.168.56.101/blog/2022/09/30/default,12,0,0
+1676379235128,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,12,12,null,0,0,0
+1676379235128,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,12,12,null,0,0,0
+1676379235128,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,12,12,null,0,0,0
+1676379235128,6,TC_Open Predefined Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-9,,true,,31388,379,12,12,null,0,6,0
+1676379235133,6,Open Predefined Date,200,OK,Thread Group 1-9,text,true,,31388,379,12,12,http://192.168.56.101/blog/2022/10/01/default,6,0,0
+1676379235141,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,12,12,null,0,0,0
+1676379235142,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,12,12,null,0,0,0
+1676379235142,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-9,,true,,0,0,12,12,null,0,0,0
+1676379234170,9,TC_Open Random page >1,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,,30382,448,12,12,null,0,984,0
+1676379235154,9,Open Random page >1,200,OK,Thread Group 1-4,text,true,,30382,448,12,12,http://192.168.56.101/blog/?page=7,9,0,0
+1676379234677,12,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-12,,true,,26492,430,12,12,null,0,500,0
+1676379235176,12,Search by Name,200,OK,Thread Group 1-12,text,true,,26492,430,12,12,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,12,0,0
+1676379235189,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,0,0
+1676379235189,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-12,,true,,0,0,12,12,null,0,0,0
+1676379234617,11,TC_Search by Name,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-11,,true,,26492,510,12,12,null,0,600,0
+1676379235216,11,Search by Name,200,OK,Thread Group 1-11,text,true,,26492,510,12,12,http://192.168.56.101/blog/search?q=Morbi%20viverra%20urna%20augue,11,0,0
+1676379235228,0,TC_NOT Open Post,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-11,,true,,0,0,12,12,null,0,0,0
+1676379235228,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-11,,true,,0,0,12,12,null,0,0,0
+1676379234491,18,TC_Open Random Date,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,16519,459,12,12,null,0,731,0
+1676379235221,18,Open Random Date,200,OK,Thread Group 1-1,text,true,,16519,459,12,12,http://192.168.56.101/blog/2022/09/15/default,18,0,0
+1676379235242,0,TC_if Open Random Page not posable,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,12,12,null,0,0,0
+1676379235242,0,"TC_if ""Open Post"" not posable",200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,12,12,null,0,0,0
+1676379235243,0,TC_END,200,"Number of samples in transaction : 0, number of failing samples : 0",Thread Group 1-1,,true,,0,0,12,12,null,0,0,0
+1676379234524,93,TC_Open Random post,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,,313325,459,12,12,null,0,720,0
+1676379235238,93,Open Random post,200,OK,Thread Group 1-5,text,true,,313325,459,12,12,http://192.168.56.101/blog/post/1673816844926,92,0,0
+1676379234877,27,TC_Open Pre
